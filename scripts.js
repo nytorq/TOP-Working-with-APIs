@@ -13,7 +13,7 @@ buttonContainer.appendChild(addGifButton);
 const addGif = function() {
     let searchString = searchInput.value;
 
-    fetch(`https://api.giphy.com/v1/gifs/translate?api_key=YSMGO2xquJiKnc672EWXSuRmN5EvdAoV&s=${searchString}`, {mode: 'cors'})
+    fetch(`https://api.giphy.com/v1/gifs/translate?api_key=[API-KEY]&s=${searchString}`, {mode: 'cors'})
     .then(function(response) {
         if (!response.ok) {
             throw new Error(`Fetch error. The status is as follows: ${response.status}`)
