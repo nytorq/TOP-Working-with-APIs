@@ -1,0 +1,29 @@
+button {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 48px;
+    background-color: #00ff60;
+    color: #e200ff;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 10000px;
+}
+
+button:hover {
+    background-color: #73ff49;
+    color: #ff0090;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    column-gap: 40px;
+}
+
+input {
+    font-size: 48px;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    border: 8px solid black;
+    border-radius: 32px;
+    padding: 16px;
+}
